@@ -2,9 +2,9 @@ class Circle {
     constructor(radius){
       this.radius = radius;
     }
-   
+
     get diametter(){
-        return this.radius * 2;        
+        return this.radius * 2;
     }
 
     get circumference(){
