@@ -3,9 +3,9 @@ class Circle {
       this.radius = radius;
     }
 
-    get diameter() {
-    return this.radius * 2
-  }
+    get diametter(){
+        return this.radius * 2;
+    }
 
     get circumference(){
         return 2 * Math.PI * this.radius;
@@ -13,6 +13,18 @@ class Circle {
 
     get area(){
         return Math.PI * Math.pow(this.radius,2);
+    }
+
+    set diametter(){
+        this.radius * 2;
+    }
+
+    set circumference(){
+        Math.PI * this.radius;
+    }
+
+    set area(){
+        Math.PI * Math.pow(this.radius,2);
     }
   }
 
