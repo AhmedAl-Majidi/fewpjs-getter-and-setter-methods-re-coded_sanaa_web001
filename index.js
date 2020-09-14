@@ -4,7 +4,7 @@ class Circle {
     }
 
     get diametter(){
-        return this.radius * 2;
+        return this.radius +this.radius;
     }
 
     get circumference(){
